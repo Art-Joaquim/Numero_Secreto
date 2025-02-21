@@ -18,7 +18,6 @@ function gerarNumeroAleatorio(){
         return gerarNumeroAleatorio();
     } else {
         numerosGerados.push(numeroAleatorio); // Adiciona o número ao array
-        console.log(numerosGerados); // Exibe os números já sorteados no console
         return numeroAleatorio;
     }
 }
